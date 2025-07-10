@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "깃헙액션스 TEST- application....";
+        return "깃헙액션스 TEST- application.dd...";
     }
 }
